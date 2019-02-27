@@ -11,3 +11,5 @@ def latex2pdf(data, output):
     pdf = build_pdf(data)
     with open(output, "wb") as file:
         pdf.save_to(file)
+
+latex2pdf(r"\documentclass{article} \begin{document} Hello, world! \end{document}", "output.pdf")
