@@ -1,5 +1,6 @@
 from latex import build_pdf
 
+
 def latex2pdf(data, output):
     """
     (str, str) -> None
